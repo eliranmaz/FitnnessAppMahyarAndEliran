@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="workout_categories">
+        <item>Weights</item>
+        <item>Jumprope</item>
+        <item>step</item>
+        <item>Fitness sofa</item>
+        <item>mattress</item>
+        <item>treadmill</item>
+    </string-array>
+</resources>

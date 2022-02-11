@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1000525225890",
+    "project_id": "hitprojectgym",
+    "storage_bucket": "hitprojectgym.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000525225890:android:f827d6a8d0da194c691cfb",
+        "android_client_info": {
+          "package_name": "com.example.userregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000525225890-7ov9pm74rb2lj57shngsbsqqr798gpg7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4PF8rGOj7l-KAF40jaM_oJrSipEFSjJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000525225890-7ov9pm74rb2lj57shngsbsqqr798gpg7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

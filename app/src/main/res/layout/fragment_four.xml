@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backround"
+    tools:context="fragmets.Fragment_four">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:text="Choose your equipments" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/toggleButtonWheight"
+            android:layout_width="128dp"
+            android:layout_height="67dp"
+            android:layout_gravity="center"
+            android:button="@drawable/wight"
+            android:text="Weights"
+            android:textOff="OFF"
+            android:textOn="Weights"
+            android:visibility="visible" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonMattress"
+            android:layout_width="156dp"
+            android:layout_height="65dp"
+            android:layout_gravity="center"
+            android:button="@drawable/mizron"
+            android:text="mattress"
+            android:textOff="OFF"
+            android:textOn="mattress"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/toggleButtonFitnessSofa"
+            android:layout_width="192dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:text="Fitness sofa"
+            android:textOff="OFF"
+            android:textOn="Fitness sofa"
+            android:visibility="visible" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonJumprope"
+            android:layout_width="203dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:button="@drawable/khkh"
+            android:text="Jumprope"
+            android:textOff="OFF"
+            android:textOn="Jumprope"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/toggleButtonAerobicstep"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="step"
+            android:textOff="OFF"
+            android:textOn="step"
+            android:visibility="visible" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonTreadmill"
+            android:layout_width="186dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="treadmill"
+            android:textOff="OFF"
+            android:textOn="treadmill"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSaveEquipments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:text="Next" />
+    </LinearLayout>
+
+</LinearLayout>

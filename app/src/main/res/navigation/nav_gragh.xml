@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_gragh"
+    app:startDestination="@id/fragmentOne">
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="fragmets.FragmentOne"
+        android:label="fragment_one"
+        tools:layout="@layout/fragment_one" >
+        <action
+            android:id="@+id/action_fragmentOne_to_fragment_four"
+            app:destination="@id/fragment_four" />
+        <action
+            android:id="@+id/action_fragmentOne_to_helloFragment"
+            app:destination="@id/helloFragment" />
+        <action
+            android:id="@+id/action_fragmentOne_to_activityUserShow"
+            app:destination="@id/activityUserShow" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="fragmets.FragmentTwo"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two" >
+        <action
+            android:id="@+id/action_fragmentTwo_to_fragment_four"
+            app:destination="@id/fragment_four" />
+        <action
+            android:id="@+id/action_fragmentTwo_to_fragmentOne"
+            app:destination="@id/fragmentOne" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_four"
+        android:name="fragmets.Fragment_four"
+        android:label="fragment_four"
+        tools:layout="@layout/fragment_four" >
+        <action
+            android:id="@+id/action_fragment_four_to_userReg"
+            app:destination="@id/userReg" />
+    </fragment>
+    <fragment
+        android:id="@+id/userReg"
+        android:name="fragmets.userReg"
+        android:label="fragment_user_reg"
+        tools:layout="@layout/fragment_user_reg" >
+        <action
+            android:id="@+id/action_userReg_to_fragmentTwo"
+            app:destination="@id/fragmentTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/helloFragment"
+        android:name="fragmets.HelloFragment"
+        android:label="fragment_hello"
+        tools:layout="@layout/fragment_hello" />
+    <activity
+        android:id="@+id/activityUserShow"
+        android:name="com.example.userregister.ActivityUserShow"
+        android:label="activity_user_show"
+        tools:layout="@layout/activity_user_show" />
+</navigation>

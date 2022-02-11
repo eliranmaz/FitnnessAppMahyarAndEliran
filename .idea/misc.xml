@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/User/UserRegister/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22083333333333333" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22083333333333333" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/activity_equipments.xml" value="0.17831813576494426" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/activity_login.xml" value="0.15625" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/activity_main.xml" value="0.35260416666666666" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/activity_register.xml" value="0.16145833333333334" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/fragment_four.xml" value="0.25" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/fragment_one.xml" value="0.36666666666666664" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/fragment_thrd.xml" value="0.20520833333333333" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/fragment_thrdww.xml" value="0.22" />
+        <entry key="..\:/User/UserRegister/app/src/main/res/layout/fragment_two.xml" value="0.22" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/drawable/designbutton.xml" value="0.1" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/activity_choose_equipment.xml" value="0.21" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/activity_new_work_out.xml" value="0.25" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/activity_recycle_work_out.xml" value="0.25" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/activity_recyclerview_weights.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/activity_rycikle.xml" value="0.1" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/activity_user_show.xml" value="0.1" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/activity_work_out_details.xml" value="0.25" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/activity_youtube_main.xml" value="0.1" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/fragment_blank_rycyle.xml" value="0.1" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/fragment_four.xml" value="0.19293478260869565" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/fragment_hello.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/fragment_one.xml" value="0.1834319526627219" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/fragment_thrdww.xml" value="0.1" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/fragment_two.xml" value="0.25" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/fragment_user_reg.xml" value="0.2" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/layout/list_items.xml" value="0.33" />
+        <entry key="..\:/Users/97252/Desktop/UserRegister/app/src/main/res/menu/workout_activity_menu.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
